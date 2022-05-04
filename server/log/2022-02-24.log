@@ -1,0 +1,10 @@
+[Tools]2022/02/24 - 09:42:14.823	[34minfo[0m	mysql connect success
+[Tools]2022/02/24 - 09:42:14.873	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/24 - 10:30:04.460	[34minfo[0m	mysql connect success
+[Tools]2022/02/24 - 10:30:04.493	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/24 - 10:35:05.241	[34minfo[0m	mysql connect success
+[Tools]2022/02/24 - 10:35:05.266	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/24 - 16:45:58.869	[34minfo[0m	mysql connect success
+[Tools]2022/02/24 - 16:45:58.909	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/24 - 17:56:22.823	[34minfo[0m	mysql connect success
+[Tools]2022/02/24 - 17:56:22.842	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}

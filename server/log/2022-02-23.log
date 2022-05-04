@@ -1,0 +1,16 @@
+[Tools]2022/02/23 - 08:57:10.438	[34minfo[0m	mysql connect success
+[Tools]2022/02/23 - 08:57:10.521	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/23 - 15:08:55.309	[34minfo[0m	mysql connect success
+[Tools]2022/02/23 - 15:08:55.318	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/23 - 15:12:10.135	[34minfo[0m	mysql connect success
+[Tools]2022/02/23 - 15:12:10.141	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/23 - 15:12:16.560	[31merror[0m	create operation record error:	{"err": "Error 1146: Table 'toolsdb.sys_operation_records' doesn't exist"}
+[Tools]2022/02/23 - 17:06:42.145	[34minfo[0m	mysql connect success
+[Tools]2022/02/23 - 17:06:42.164	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/23 - 17:06:49.189	[31merror[0m	dashboard get login date, err:	{"err": "redis: nil"}
+[Tools]2022/02/23 - 17:09:48.455	[34minfo[0m	mysql connect success
+[Tools]2022/02/23 - 17:09:48.483	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/23 - 17:13:56.470	[34minfo[0m	mysql connect success
+[Tools]2022/02/23 - 17:13:56.478	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/23 - 17:27:32.299	[34minfo[0m	mysql connect success
+[Tools]2022/02/23 - 17:27:32.306	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}

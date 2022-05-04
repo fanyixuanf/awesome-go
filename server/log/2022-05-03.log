@@ -1,0 +1,9 @@
+[Tools]2022/05/03 - 14:55:55.415	[31merror[0m	redis connect ping failed, err:	{"err": "Error 1049: Unknown database 'toolsdb'"}
+[Tools]2022/05/03 - 14:57:37.876	[34minfo[0m	mysql connect success
+[Tools]2022/05/03 - 14:57:37.879	[31merror[0m	redis connect ping failed, err:	{"err": "NOAUTH Authentication required.  "}
+[Tools]2022/05/03 - 14:58:30.570	[34minfo[0m	mysql connect success
+[Tools]2022/05/03 - 14:58:30.573	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/05/03 - 14:59:20.284	[34minfo[0m	mysql connect success
+[Tools]2022/05/03 - 14:59:20.287	[31merror[0m	redis connect ping failed, err:	{"err": "ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?"}
+[Tools]2022/05/03 - 15:01:43.324	[34minfo[0m	mysql connect success
+[Tools]2022/05/03 - 15:01:43.328	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}

@@ -1,0 +1,13 @@
+[Tools]2022/02/22 - 09:43:57.270	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/22 - 10:09:08.694	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/22 - 10:10:31.364	[34minfo[0m	mysql connect success
+[Tools]2022/02/22 - 10:10:31.492	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/22 - 13:22:19.500	[34minfo[0m	mysql connect success
+[Tools]2022/02/22 - 13:22:19.566	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/22 - 13:27:45.111	[34minfo[0m	mysql connect success
+[Tools]2022/02/22 - 13:27:45.119	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/22 - 13:31:05.623	[34minfo[0m	mysql connect success
+[Tools]2022/02/22 - 13:31:05.649	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/22 - 13:45:23.032	[34minfo[0m	mysql connect success
+[Tools]2022/02/22 - 13:45:23.069	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/22 - 13:45:29.225	[31merror[0m	redis connect ping failed, err:	{"err": "Error 1146: Table 'toolsdb.jwt_blacklists' doesn't exist"}

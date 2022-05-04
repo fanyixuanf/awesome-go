@@ -1,0 +1,55 @@
+[Tools]2022/03/27 - 11:46:00.684	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 11:46:00.687	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 11:46:31.792	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/03/27 - 11:59:22.119	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/03/27 - 11:59:37.294	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/03/27 - 12:07:49.995	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/03/27 - 12:09:49.020	[31merror[0m	create operation record error:	{"err": "Error 1406: Data too long for column 'agent' at row 1"}
+[Tools]2022/03/27 - 13:24:26.419	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 13:24:26.422	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 14:29:57.232	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 14:29:57.235	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 14:52:34.845	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 14:52:34.849	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 14:59:17.398	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 14:59:17.401	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:01:18.236	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:01:18.238	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:03:29.515	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:03:29.518	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:04:55.657	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:04:55.660	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:15:24.965	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:15:24.968	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:21:14.207	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:21:14.210	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:26:10.550	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:26:10.553	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:30:55.123	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:30:55.126	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:32:56.203	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:32:56.207	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:36:19.452	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:36:19.455	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:37:33.860	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:37:33.863	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:48:54.385	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:48:54.388	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 15:53:25.694	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 15:53:25.697	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 16:06:10.105	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 16:06:10.108	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 16:11:49.699	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 16:11:49.702	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 17:39:57.499	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 17:39:57.503	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 17:47:54.403	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 17:47:54.406	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 17:55:58.878	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 17:55:58.882	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 17:56:00.007	[34minfo[0m	redis connect ping response:	{"timer start:": "xxxxx"}
+[Tools]2022/03/27 - 17:57:00.010	[34minfo[0m	redis connect ping response:	{"timer start:": "xxxxx"}
+[Tools]2022/03/27 - 17:58:00.008	[34minfo[0m	redis connect ping response:	{"timer start:": "xxxxx"}
+[Tools]2022/03/27 - 17:58:18.571	[34minfo[0m	mysql connect success
+[Tools]2022/03/27 - 17:58:18.574	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/03/27 - 17:59:00.014	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}

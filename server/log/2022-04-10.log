@@ -1,0 +1,66 @@
+[Tools]2022/04/10 - 14:00:29.277	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 14:00:29.280	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 14:30:00.003	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 15:00:00.006	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 15:02:34.360	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 15:02:34.363	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 15:30:00.012	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 16:00:00.002	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 16:30:00.010	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 17:00:00.003	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 17:30:00.005	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 17:32:41.961	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:32:41.965	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:32:57.169	[31merror[0m	sql error: 	{"error": "record not found"}
+[Tools]2022/04/10 - 17:36:00.946	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:36:00.949	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:36:11.607	[31merror[0m	sql error: 	{"error": "record not found"}
+[Tools]2022/04/10 - 17:37:07.335	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:37:07.339	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:37:15.772	[31merror[0m	sql error: 	{"error": "record not found"}
+[Tools]2022/04/10 - 17:39:42.144	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:39:42.147	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:39:50.071	[31merror[0m	sql error: 	{"error": "record not found"}
+[Tools]2022/04/10 - 17:40:49.070	[31merror[0m	sql error: 	{"error": "record not found"}
+[Tools]2022/04/10 - 17:46:27.854	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:46:27.857	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:47:01.686	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'latency' at row 1"}
+[Tools]2022/04/10 - 17:52:19.962	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:52:19.965	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:53:34.717	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:53:34.720	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:55:21.027	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:55:21.031	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 17:58:23.183	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 17:58:23.186	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 18:00:20.197	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 18:00:20.200	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 18:01:00.853	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:02:00.220	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:02:40.548	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 18:02:40.552	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 18:03:00.517	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:04:00.211	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:05:00.224	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:06:00.499	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:07:00.226	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:07:15.277	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 18:07:15.281	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 18:08:00.455	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:09:00.226	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:24:05.782	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 18:24:05.785	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 18:25:00.535	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:26:00.214	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:26:00.214	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:27:00.214	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:27:00.215	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:27:51.923	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 18:27:51.926	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 18:29:00.842	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:30:00.003	[34minfo[0m	Timer start:	{"timer start:": "sys_operation_records"}
+[Tools]2022/04/10 - 18:30:00.216	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:31:00.220	[34minfo[0m	Timer start:	{"start": {"start":1}}
+[Tools]2022/04/10 - 18:31:31.478	[34minfo[0m	mysql connect success
+[Tools]2022/04/10 - 18:31:31.481	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/04/10 - 18:33:00.445	[34minfo[0m	Timer start:	{"start": {"start":1}}

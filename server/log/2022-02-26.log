@@ -1,0 +1,9 @@
+[Tools]2022/02/26 - 12:01:02.176	[31merror[0m	redis connect ping failed, err:	{"err": "Error 1045: Access denied for user 'root'@'172.18.0.1' (using password: YES)"}
+[Tools]2022/02/26 - 12:04:35.871	[31merror[0m	redis connect ping failed, err:	{"err": "Error 1045: Access denied for user 'root'@'172.18.0.1' (using password: YES)"}
+[Tools]2022/02/26 - 12:09:08.939	[34minfo[0m	mysql connect success
+[Tools]2022/02/26 - 12:09:08.942	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[Tools]2022/02/26 - 12:11:22.411	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/02/26 - 12:11:32.483	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/02/26 - 12:11:42.010	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/02/26 - 12:12:04.498	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}
+[Tools]2022/02/26 - 12:15:34.689	[31merror[0m	create operation record error:	{"err": "Error 1264: Out of range value for column 'status' at row 1"}

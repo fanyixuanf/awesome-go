@@ -1,0 +1,17 @@
+FROM node:alpine
+
+WORKDIR /go_web/
+COPY web/ .
+
+RUN npm install
+RUN npm run build
+
+FROM nginx:alpine
+LABEL MAINTAINER="fanyixuanf@gmail.com"
+
+COPY ./config/nginx/my.conf /etc/nginx/conf.d/my.conf
+COPY --from=0 /go_web/dist /usr/share/nginx/html
+RUN cat /etc/nginx/nginx.conf
+RUN cat /etc/nginx/conf.d/my.conf
+RUN ls -al /usr/share/nginx/html
+CMD ls -al /usr/share/nginx/html
