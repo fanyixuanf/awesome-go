@@ -8,3 +8,7 @@ type System struct {
 	NeedInitData  bool   `mapstructure:"need-init-data" json:"needInitData" yaml:"need-init-data"`
 	UseMultipoint bool   `mapstructure:"use-multipoint" json:"useMultipoint" yaml:"use-multipoint"`
 }
+
+type Ipinfo struct {
+	Token string `mapstructure:"token" json:"token" yaml:"token"`
+}

@@ -42,12 +42,16 @@ services:
       - mysql-node-1
       - mysql-node-2
       - redis-master
+      - node-1
+      - node-2
       - minio
     links:
       - mysql-master
       - mysql-node-1
       - mysql-node-2
       - redis-master
+      - node-1
+      - node-2
       - minio
     networks:
       network:
@@ -67,8 +71,8 @@ services:
     expose:
       - "3306"
     volumes:
-      - /home/yuxue/docker/docker-compose/data/mysql/mysql-master-data:/var/lib/mysql
-      - /home/yuxue/docker/docker-compose/data/mysql/mysql-master-log:/var/log/mysql
+      - /home/yuxue/docker/awesome-go/data/mysql/mysql-master-data:/var/lib/mysql
+      - /home/yuxue/docker/awesome-go/data/mysql/mysql-master-log:/var/log/mysql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/sakila-schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/sakila-data.sql:/docker-entrypoint-initdb.d/2-data.sql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/init-master.sh:/docker-entrypoint-initdb.d/3-init-master.sh
@@ -95,8 +99,8 @@ services:
     depends_on:
       - mysql-master
     volumes:
-      - /home/yuxue/docker/docker-compose/data/mysql/mysql-node-1-data:/var/lib/mysql
-      - /home/yuxue/docker/docker-compose/data/mysql/mysql-node-1-log:/var/log/mysql
+      - /home/yuxue/docker/awesome-go/data/mysql/mysql-node-1-data:/var/lib/mysql
+      - /home/yuxue/docker/awesome-go/data/mysql/mysql-node-1-log:/var/log/mysql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/sakila-schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/sakila-data.sql:/docker-entrypoint-initdb.d/2-data.sql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/init-node.sh:/docker-entrypoint-initdb.d/3-init-node.sh
@@ -116,8 +120,8 @@ services:
     ports:
       - "3308:3306"
     volumes: 
-      - /home/yuxue/docker/docker-compose/data/mysql/mysql-node-2-data:/var/lib/mysql
-      - /home/yuxue/docker/docker-compose/data/mysql/mysql-node-2-log:/var/log/mysql
+      - /home/yuxue/docker/awesome-go/data/mysql/mysql-node-2-data:/var/lib/mysql
+      - /home/yuxue/docker/awesome-go/data/mysql/mysql-node-2-log:/var/log/mysql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/sakila-schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/sakila-data.sql:/docker-entrypoint-initdb.d/2-data.sql
       - /home/yuxue/docker/docker-compose/docker/mysql/init-db-sql/init-node.sh:/docker-entrypoint-initdb.d/3-init-node.sh

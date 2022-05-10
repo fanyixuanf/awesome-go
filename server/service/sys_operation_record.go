@@ -47,7 +47,7 @@ func DeleteSysOperationRecord(sysOperationRecord model.SysOperationRecord) (err 
 // @return    SysOperationRecord        SysOperationRecord
 
 func GetSysOperationRecord(id uint) (err error, sysOperationRecord model.SysOperationRecord) {
-	err = global.GVA_DB.Where("id = ?", id).First(&sysOperationRecord).Error
+	err = global.GVA_READDB.Where("id = ?", id).First(&sysOperationRecord).Error
 	return
 }
 
@@ -61,7 +61,7 @@ func GetSysOperationRecordInfoList(info request.SysOperationRecordSearch) (err e
 	limit := info.PageSize
 	offset := info.PageSize * (info.Page - 1)
 	// 创建db
-	db := global.GVA_DB.Model(&model.SysOperationRecord{})
+	db := global.GVA_READDB.Model(&model.SysOperationRecord{})
 	var sysOperationRecords []model.APISysOperationRecord
 	// 如果有条件搜索 下方会自动创建搜索语句
 	if info.Method != "" {

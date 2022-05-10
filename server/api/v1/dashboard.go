@@ -57,7 +57,7 @@ func GetInitData(c *gin.Context) {
 }
 
 func getIpAddress() resp.OtherRsp {
-	res, err := http.Get("https://ipinfo.io/json")
+	res, err := http.Get("https://ipinfo.io/json?token=" + global.GVA_CONFIG.Ipinfo.Token)
 	if err != nil {
 		global.GVA_LOG.Error("dashboard getIpAddress failed, err:", zap.Any("err", err))
 		return resp.OtherRsp{}

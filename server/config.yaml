@@ -62,6 +62,17 @@ mysql:
   max-open-conns: 10
   log-mode: false
 
+# mysql connect configuration
+mysqlread:
+  path: '172.26.0.4:3306'
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  db-name: 'toolsdb'
+  username: 'root'
+  password: 'Abcd@1234'
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: false
+
 # sqlite connect configuration (sqlite需要gcc支持 windows用户需要自行安装gcc)
 sqlite:
   path: 'db.db'
@@ -104,3 +115,7 @@ Timer:
     - tableName: "sys_operation_records"
       compareField: "created_at"
       interval: "0h"
+
+# https://ipinfo.io/json?token=bda6e0d48fcfe2
+Ipinfo:
+  token: 'bda6e0d48fcfe2'

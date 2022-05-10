@@ -18,7 +18,7 @@ import (
 
 func AddCronJob(job model.CronJob) (err error, jobInter model.CronJob) {
 	var cjob model.CronJob
-	if !errors.Is(global.GVA_DB.Where("job_key = ?", job.JobKey).First(&cjob).Error, gorm.ErrRecordNotFound) { // 判断key是否存在
+	if !errors.Is(global.GVA_READDB.Where("job_key = ?", job.JobKey).First(&cjob).Error, gorm.ErrRecordNotFound) { // 判断key是否存在
 		return errors.New("job key已经存在"), jobInter
 	}
 	err = global.GVA_DB.Create(&job).Error
@@ -29,7 +29,7 @@ func GetCronJobList(p request.CronJobListReq) (err error, list interface{}, tota
 	limit := p.PageSize
 	offset := p.PageSize * (p.Page - 1)
 	// 创建db
-	db := global.GVA_DB.Model(&model.CronJob{})
+	db := global.GVA_READDB.Model(&model.CronJob{})
 	var data []model.CronJob
 	err = db.Count(&total).Error
 	err = db.Order("id desc").Limit(limit).Offset(offset).Find(&data).Error

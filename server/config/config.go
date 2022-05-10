@@ -10,10 +10,12 @@ type Server struct {
 	Captcha Captcha `mapstructure:"captcha" json:"captcha" yaml:"captcha"`
 	// gorm
 	Mysql      Mysql      `mapstructure:"mysql" json:"mysql" yaml:"mysql"`
+	MysqlRead  Mysql      `mapstructure:"mysqlread" json:"mysqlread" yaml:"mysqlread"`
 	Sqlite     Sqlite     `mapstructure:"sqlite" json:"sqlite" yaml:"sqlite"`
 	Sqlserver  Sqlserver  `mapstructure:"sqlserver" json:"sqlserver" yaml:"sqlserver"`
 	Postgresql Postgresql `mapstructure:"postgresql" json:"postgresql" yaml:"postgresql"`
 	// oss
 	Local Local `mapstructure:"local" json:"local" yaml:"local"`
 	Timer Timer `mapstructure:"timer" json:"timer" yaml:"timer"`
+	Ipinfo Ipinfo `mapstructure:"ipinfo" json:"ipinfo" yaml:"ipinfo"`
 }

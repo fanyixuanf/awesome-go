@@ -25,4 +25,6 @@ var (
 	GVA_VP     *viper.Viper
 	GVA_LOG    *zap.Logger
 	GVA_Timer  timer.Timer = timer.NewTimerTask()
+	GVA_READDB *gorm.DB
+	GVA_IPINFO config.Ipinfo
 )
