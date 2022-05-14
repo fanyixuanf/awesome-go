@@ -48,7 +48,7 @@ func Login(c *gin.Context) {
 		global.GVA_LOG.Error("数据验证失败, err:", zap.Any("err", UserVerifyErr))
 		return
 	}
-	if store.Verify(L.CaptchaId, L.Captcha, true) {
+	if store.Verify(L.CaptchaId, L.Captcha, false) {
 		U := &model.SysUser{Username: L.Username, Password: L.Password}
 		if err, user := service.Login(U); err != nil {
 			response.FailWithMessage(fmt.Sprintf("用户名密码错误或%v", err), c)

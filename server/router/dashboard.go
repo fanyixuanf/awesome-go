@@ -16,8 +16,8 @@ import (
 
 func InitDashboardRouter(router *gin.RouterGroup) (R gin.IRoutes) {
 	dashboardRouter := router.Group("dashboard").
-		Use(middleware.JWTAuth()).
-		Use(middleware.OperationRecord())
+		Use(middleware.JWTAuth())
+		//Use(middleware.OperationRecord())
 	{
 		dashboardRouter.POST("init", v1.GetInitData)
 	}

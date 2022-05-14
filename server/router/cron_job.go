@@ -16,8 +16,8 @@ import (
 
 func InitCronJobRouter(Router *gin.RouterGroup) {
 	CronJobRouter := Router.Group("cronjob").
-		Use(middleware.JWTAuth()).
-		Use(middleware.OperationRecord())
+		Use(middleware.JWTAuth())
+		//Use(middleware.OperationRecord())
 	{
 		CronJobRouter.POST("addCronJob", v1.AddCronJob)
 		CronJobRouter.POST("startCronJob", v1.StartCronJob)

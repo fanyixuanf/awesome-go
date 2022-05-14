@@ -16,8 +16,8 @@ import (
 
 func InitLogsRouter(Router *gin.RouterGroup) {
 	LogsRouter := Router.Group("logs").
-		Use(middleware.JWTAuth()).
-		Use(middleware.OperationRecord())
+		Use(middleware.JWTAuth())
+		//Use(middleware.OperationRecord())
 	{
 		LogsRouter.POST("getLogsList", v1.GetLogsList)
 	}
